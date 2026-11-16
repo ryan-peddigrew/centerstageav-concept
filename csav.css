@@ -477,3 +477,8 @@ footer .bot .pc img{perspective:200px;animation:spin9 9s linear infinite;transfo
 
 /* all caps on buttons */
 .tourbtn{text-transform:uppercase;letter-spacing:.04em}
+/* hero fixes */
+@media(max-width:760px){.hero .hbg video{object-position:76% 30%}}
+.rot>b{transition:transform .6s cubic-bezier(.2,.8,.2,1),opacity .2s}
+.rot>b.on{transition:transform .6s cubic-bezier(.2,.8,.2,1),opacity .3s .2s}
+#wm{opacity:.3!important}
